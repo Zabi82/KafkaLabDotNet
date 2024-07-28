@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+    <StartupObject>StreamProcessor</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="2.4" />
+    <PackageReference Include="Streamiz.Kafka.Net" Version="1.5.1" />
+  </ItemGroup>
+
+</Project>

@@ -98,6 +98,11 @@ public class HelloConsumerRebalanceHandler
                     {
                         Console.WriteLine($"Consume error: {e.Error.Reason}");
                     }
+
+                    catch (Exception e)
+                    {
+                        Console.WriteLine($"Consume error: {e.Message}");
+                    }
                     
                 }
             }
